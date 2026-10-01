@@ -1,0 +1,37 @@
+﻿# Large binary results - not in repo
+1_results/
+2_results/
+
+# Internal audit artifacts
+AI_AUDIT/
+FINAL_REPORT.md
+FINAL_REPORT_BUILDER.py
+NST_Proj_v2_AI_Loop_Report_Plan.md
+REPORT_AUDIT.md
+REPORT_EVIDENCE_MAP.md
+
+# Generated chart scripts and outputs
+generate_charts.py
+generate_cm_gradcam.py
+img/
+
+# Dataset (large zip, use git-lfs or share separately)
+dataset.zip
+base_chromosomes.zip
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+data_pipeline/__pycache__/
+models/__pycache__/
+scripts/__pycache__/
+testing/__pycache__/
+preprocessing/__pycache__/
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+
+# Virtual env
+.venv/
+venv/
