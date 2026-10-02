@@ -1,37 +1,42 @@
-﻿# Large binary results - not in repo
+# Large binary results and datasets
 1_results/
 2_results/
+NST_Proj_v2_results/
+dataset.zip
+base_chromosomes.zip
+data/processed/images/
+data/processed/priors_skeleton/
+data/processed/priors_distance/
+data/processed/mask_1/
+data/processed/mask_2/
+data/processed/mask_3/
+data/processed/overlap_12/
+data/processed/overlap_23/
+data/processed/overlap_13/
+data/processed/overlap_123/
 
-# Internal audit artifacts
+# Model checkpoints
+*.pth
+*.pt
+*.keras
+*.h5
+
+# Python cache & virtual environments
+__pycache__/
+*.pyc
+*.pyo
+venv/
+.venv/
+.ipynb_checkpoints/
+
+# Internal audit reports
 AI_AUDIT/
-FINAL_REPORT.md
 FINAL_REPORT_BUILDER.py
 NST_Proj_v2_AI_Loop_Report_Plan.md
 REPORT_AUDIT.md
 REPORT_EVIDENCE_MAP.md
 
-# Generated chart scripts and outputs
+# Legacy scripts
 generate_charts.py
 generate_cm_gradcam.py
 img/
-
-# Dataset (large zip, use git-lfs or share separately)
-dataset.zip
-base_chromosomes.zip
-
-# Python cache
-__pycache__/
-*.pyc
-*.pyo
-data_pipeline/__pycache__/
-models/__pycache__/
-scripts/__pycache__/
-testing/__pycache__/
-preprocessing/__pycache__/
-
-# Jupyter checkpoints
-.ipynb_checkpoints/
-
-# Virtual env
-.venv/
-venv/
